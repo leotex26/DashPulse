@@ -90,6 +90,15 @@
         </div>
       </div>
     </section>
+    <div v-if="offline" class="offline">
+      <div class="container">
+        <h1 class="title">Vous êtes hors ligne</h1>
+        <p class="subtitle">
+          Vérifiez votre connexion internet et réessayez.
+        </p>
+      </div>
+    </div>
+      <div class="overlay"><p> </p><br><p> </p></div>
 
     <footer class="footer">
       <div class="container">
