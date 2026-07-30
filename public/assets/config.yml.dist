@@ -8,7 +8,7 @@ logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a>
+footer: footer: '<p>Développé par <b>Léo Texier</b> | DashPulse • Propulsé par <a href="https://vuejs.org/">Vue.js</a></p>'
 
 # Optional theme customization
 theme: default
