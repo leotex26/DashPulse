@@ -67,6 +67,8 @@
           <!-- Optional messages -->
           <Message :item="config.message" />
 
+          <GithubWidget />
+
           <!-- Unified layout -->
           <div
             :class="[
@@ -114,6 +116,7 @@ import SearchInput from "./components/SearchInput.vue";
 import SettingToggle from "./components/SettingToggle.vue";
 import DarkMode from "./components/DarkMode.vue";
 import DynamicTheme from "./components/DynamicTheme.vue";
+import GithubWidget from "./components/GithubWidget.vue";
 
 import defaultConfig from "./assets/defaults.yml?raw";
 
@@ -129,6 +132,7 @@ export default {
     SettingToggle,
     DarkMode,
     DynamicTheme,
+    GithubWidget,
   },
   provide() {
     return {
