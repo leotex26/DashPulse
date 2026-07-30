@@ -24,6 +24,7 @@
             <h1>{{ config.title }}</h1>
           </div>
         </div>
+        
       </section>
 
       <Navbar
@@ -67,7 +68,11 @@
           <!-- Optional messages -->
           <Message :item="config.message" />
 
-          <GithubWidget />
+          <div class="columns">
+          <WeatherWidget class="column" />
+          <GithubWidget class="column" />
+          
+          </div>
 
           <!-- Unified layout -->
           <div
@@ -99,7 +104,7 @@
       </div>
     </div>
       <div class="overlay"><p> </p><br><p> </p></div>
-      
+
 
     <footer class="footer">
       <div class="container">
@@ -127,6 +132,7 @@ import SettingToggle from "./components/SettingToggle.vue";
 import DarkMode from "./components/DarkMode.vue";
 import DynamicTheme from "./components/DynamicTheme.vue";
 import GithubWidget from "./components/GithubWidget.vue";
+import WeatherWidget from "./components/WeatherWidget.vue";
 
 import defaultConfig from "./assets/defaults.yml?raw";
 
@@ -143,6 +149,7 @@ export default {
     DarkMode,
     DynamicTheme,
     GithubWidget,
+    WeatherWidget,
   },
   provide() {
     return {
