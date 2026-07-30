@@ -136,6 +136,9 @@ pnpx http-server # or python -m http.server 8010 or any web server.
 ### Build manually
 
 ```sh
+
+<img width="1211" height="549" alt="image" src="https://github.com/user-attachments/assets/46e01f78-7bdd-4fb1-b749-dab863090907" />
+
 pnpm install
 pnpm build
 ```
